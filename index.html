@@ -5,51 +5,67 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
-    <h1>
-        Wichtige Git Befehle
-    </h1>
+    <header>
+            <img id="logo" src="Pictures/Logo Fit mit Git.svg" alt="Logo Fit mit Git" width=200px/>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="impressum.html">Impressum</a>
+                    </li>
+                </ul>
+            </nav>
+    </header>
     <ul>
+      <li>git fetch </li>
+    <div class="uberschrift"></div>
+        <h1>
+            Wichtige Git Befehle
+        </h1>
+    </div>
+    <div class="content">
+        <ul>
+            
         <li>git fetch </li> <br/>
-        Mit git fetch holt man Daten von einem entfernten Repo / synchronisiert lokale Abbildung <br/> <br/>
-        Funktionsweise: <br/>
-	    Fetch lädt Commits runter (die lokal fehlen)
-        Remote Branches werden aktualisiert (o/main) <br/><br/>
-        Zusammenhang Remote Branches und git fetch: <br/> 
-        Remote Branches: Zustand seit ich das letzte Mal das Repo angesprochen habe <br/>
-        git fetch: Methode um Repo anzusprechen <br/>
-        Kommuniziert übers Internet (http:// oder git://) <br/>
-        Wichtig: es ändert nichts an den lokalen Branches  nur ein Download Schritt am Ende vom Tag  <br/>
+          Mit git fetch holt man Daten von einem entfernten Repo / synchronisiert lokale Abbildung <br/> <br/>
+          Funktionsweise: <br/>
+          Fetch lädt Commits runter (die lokal fehlen)
+          Remote Branches werden aktualisiert (o/main) <br/><br/>
+          Zusammenhang Remote Branches und git fetch: <br/> 
+          Remote Branches: Zustand seit ich das letzte Mal das Repo angesprochen habe <br/>
+          git fetch: Methode um Repo anzusprechen <br/>
+          Kommuniziert übers Internet (http:// oder git://) <br/>
+          Wichtig: es ändert nichts an den lokalen Branches  nur ein Download Schritt am Ende vom Tag  <br/>
 
         <li>git commit</li> <br/>
-        Zum speichern einer "Abbildung" aller Daten
-        <br/>
+          Zum speichern einer "Abbildung" aller Daten <br/>
         <li>git merge</li> <br/>
-        Um Branches zusammenzuführe --> man schiebt quasi ein Commit auf den anderen <br/><br/>
-        Funktionsweise:<br/>
-        Dabei wird automatisch ein commit erstellt welcher zwei Vorgänge hat<br/>
-
-
+          Um Branches zusammenzuführe --> man schiebt quasi ein Commit auf den anderen <br/><br/>
+          Funktionsweise:<br/>
+          Dabei wird automatisch ein commit erstellt welcher zwei Vorgänge hat<br/>
+         
+            
+            <li>git merge</li>
+            
+            <li>git rebase</li>
+            
+            <li>git reset</li> 
         
-        <li>git rebase</li>
-        
-        <li>git reset</li> 
-       
-        <li>git revert</li>
-        
-        <li>git tags</li>
+            <li>git revert</li>
+            
+            <li>git tags</li>
 
-        <li>git describe</li>
+            <li>git describe</li>
 
-        <li>git fetch</li>
+            <li>git fetch</li>
 
-        <li>git pull</li>
-        Zum aktualisieren der Daten --> 
+            <li>git pull</li>
+            
+            <li> git push </li>
 
-        <li> git push </li> <br/>
-        Zum Hochladen von Änderungen an den Server 
-
-    </ul>
+        </ul>
+    </div>
 </body>
 </html>
