@@ -1,7 +1,40 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-    color: red;
+    font-size: 25pt;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+header{
+    height: 80px;
+    background-color: white;
+    box-shadow: 0px 3px 13px -5px #000000;
+}
+header img {
+    height: 60px;
+    margin-left: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header ul {
+    float: right;
+    list-style: none;
+    margin-right: 100px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.header ul li a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    background-color: white;
+    box-shadow: 0px 3px 13px -5px #000000;
+}
+.content {
+    min-height: 1000px;
 }
