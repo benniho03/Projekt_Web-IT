@@ -19,7 +19,6 @@
             </nav>
     </header>
     <ul>
-      <li>git fetch </li>
     <div class="uberschrift"></div>
         <h1>
             Wichtige Git Befehle
@@ -38,7 +37,7 @@
             <p>Remote Branches: Zustand seit ich das letzte Mal das Repo angesprochen habe</p>
             <p>git fetch: Methode um Repo anzusprechen</p>
             <p>Kommuniziert übers Internet (http:// oder git://)</p>
-            <p>Wichtig: es ändert nichts an den lokalen Branches  nur ein Download Schritt am Ende vom Tag</p>
+            <p>Wichtig: es ändert nichts an den lokalen Branches --> nur ein Download Schritt am Ende vom Tag</p>
         </details>
         
         <details>
@@ -51,33 +50,34 @@
             <summary>git merge</summary>
             <img src="" alt="">
             <p>Um Branches zusammenzuführe --> man schiebt quasi ein Commit auf den anderen</p>
-            <p> Funktionsweise:</p>
-            <p> Dabei wird automatisch ein commit erstellt welcher zwei Vorgänge hat</p>
-            <p></p>
+            <p>Funktionsweise:</p>
+            <p>Dabei wird automatisch ein commit erstellt welcher zwei Vorgänge hat</p>
         </details> 
-        
-         
-       
 
-         
+        <details>
+            <summary>git rebase</summary>
+            <img src="" alt="">
+            <p>Zweite Option um Branches zu kombinieren</p>
+            <p>Nimmt Commits und kopiert sie </p>
+            <p>Vorteil: Hübsche lineare Abfolge von commits --> merge commits werden vermieden</p>
+        </details>
+    
+        <details>
+            <summary>git cherry-picking</summary>
+            <img src="" alt="">
+            <p>Zum verschieben von Inhalten</p>
+            <p>Git cherry-pick --> git cherry-pick Commit1 Commit2 ... </p>
+            <p>Damit drücke ich aus, dass ich eine Folge von Commits unter den aktuellen Checkout (Head) hängen will (würde auch mit rebase gehen) </p>
+        </details>
             
-           
-            
-            <li>git rebase</li>
-            
-            <li>git reset</li> 
-        
-            <li>git revert</li>
-            
-            <li>git tags</li>
-
-            <li>git describe</li>
-
-            <li>git fetch</li>
-
-            <li>git pull</li>
-            
-            <li> git push </li>
+        <details>
+            <summary>Interaktive Rebase</summary>
+            <img src="" alt="">
+            <p>Interaktive Rebase --> wenn ich die commits nicht genau kenne --> um sich die Serie von Commits in einem rebase genauer anzusehen </p>
+            <p>Dem rebase Befehl die option –i hinzufügen </p>
+            <p>Dadurch zeigt mir git jeden commit der durch den rebase kopiert werden würde --> wird im Texteditor angezeigt </p>
+            <p>Kann drei Dinge tun --> Reihenfolge der Commits ändern / ignorieren mit omit, wiederaufnehmen mit pick / Commit zusammenfassen (squah)</p>
+        </details>
 
         </ul>
     </div>
