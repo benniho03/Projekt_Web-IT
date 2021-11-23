@@ -1,0 +1,25 @@
+Regeln
+
+Zusammenarbeitsregeln:
+
+1. Die Aufgaben werden an alle Gruppenmitglieder verteilt.
+
+2. Jedes Gruppenmitglied ist für seine Aufgabe selbst verantwortlich.
+
+3. Bei Fragen und Problemen helfen wir uns gegenseitig.
+
+4. Der Austausch untereinander findet über Discord statt.
+
+GitHub-Regeln:
+
+1. Wir haben uns für das Branchen-Modell „GitHub-Flow“ entschieden.
+
+—> Für jede Änderung, jedes Issue und jedes Feature wird ein neuer Branch erstellt, der nach Fertigstellung wieder gelöscht werden soll.
+
+2. Die Branches werden nach der jeweiligen Änderung benannt.
+
+3. Bei jedem Merge wird eine passende Erläuterung ergänzt.
+
+4. Vor und nach jedem Commit müssen alle Gruppenmitglieder das Repository aktualisieren, um Merging-Conflicts zu verhindern.
+
+5. Sollte trotzdem ein Merging-Conflict auftreten, wird in der Gruppe besprochen, wie das Problem gelöst wird.
